@@ -1,0 +1,72 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "How are you",
+        "Hello",
+        "Good day",
+        "Whats up"
+      ],
+      "responses": [
+        "Hello!",
+        "Good to see you again!",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "cya",
+        "See you later",
+        "Goodbye",
+        "I am leaving",
+        "Have a Good day"
+      ],
+      "responses": [
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?"
+      ],
+      "responses": [
+        "You can call me Bob.",
+        "I'm Bob (not the builder)!",
+        "I'm Robert"
+      ]
+    },
+    {
+      "tag": "shop",
+      "patterns": [
+        "Id like to buy something",
+        "whats on the menu",
+        "what do you recommend?",
+        "could i get something to eat"
+      ],
+      "responses": [
+        "Cakes are on the menu!",
+        "You get nothing"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "when are you guys open",
+        "what are your hours",
+        "hours of operation"
+      ],
+      "responses": [
+        "We are open 12am-2pm Monday, Friday and Saturday!",
+        "24/7 my friend"
+      ]
+    }
+  ]
+}

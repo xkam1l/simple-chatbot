@@ -1,0 +1,4 @@
+nltk==3.7
+numpy==1.23.1
+tensorflow-macos==2.9.2
+tflearn==0.5.0
